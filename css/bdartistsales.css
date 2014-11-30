@@ -1,0 +1,22 @@
+tfoot td {
+	font-weight: 700;
+	color: #333; }
+
+ #bd_artist_sales_nav {
+  display: inline-block;
+  padding: 11px 0px 11px 15px;
+  margin: 0; }
+  #bd_artist_sales_nav a {
+    color: #93979d;
+    font-weight: 300;
+    display: block;
+    padding: 0;
+    cursor: pointer;
+    text-transform: uppercase; }
+    #bd_artist_sales_nav a:hover, #bd_artist_sales_nav a.active {
+      color: #f1835b; }
+
+@media only screen and (max-width: 767px) {
+  #bd_artist_sales_nav {     
+    float: left; } 
+}
